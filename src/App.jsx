@@ -141,13 +141,31 @@ function App() {
             </p>
 
             <div className="hero-actions">
-              <a className="button button-primary" href="#projects">
-                Explore my work <Symbol>→</Symbol>
-              </a>
-              <a className="button button-ghost" href="#contact">
-                Get in touch <Symbol>↗</Symbol>
-              </a>
-            </div>
+  <a className="button button-primary" href="#projects">
+    Explore my work <Symbol>→</Symbol>
+  </a>
+
+  <a className="button button-ghost" href="#contact">
+    Get in touch <Symbol>↗</Symbol>
+  </a>
+
+  <a
+    className="button button-primary"
+    href="/Priyanka-CV.pdf"
+    download="Priyanka-Sanikommu-CV.pdf"
+  >
+    Download CV <Symbol>↓</Symbol>
+  </a>
+
+  <a
+    className="button button-ghost"
+    href="/Priyanka-CV.pdf"
+    target="_blank"
+    rel="noreferrer"
+  >
+    View CV <Symbol>↗</Symbol>
+  </a>
+</div>
 
             <div className="social-links">
               <a
